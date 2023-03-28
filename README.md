@@ -1,42 +1,14 @@
-# C++ Programming Tutorial in Chemistry
-This tutorial is intended to touch on many, but certainly not all, of the fundamentals of C++ programming with an emphasis on quantum chemistry.  Although I hope this section will get you started, it is not a substitute for a more complete reference manual.  For more C++ language details, you may find the standard text by Josuttis [buy it](http://www.amazon.com/C-Standard-Library-Tutorial-Reference/dp/0201379260) useful or, for VT users, get it [on-line from the campus library](http://proquest.safaribooksonline.com/0201379260) or a decent on-line tutorial such as [this one](http://www.cplusplus.com/doc/tutorial/) or [this one](http://www.cprogramming.com/tutorial.html). 
+# Quantum Chemistry Methods with Python
 
-If you are new to programming, one way to approach this tutorial is to read through "The Fundamentals" list on the [wiki](https://github.com/CrawfordGroup/ProgrammingProjects/wiki) first, then proceed with Project #1, using the earlier material as a reference. If you are already experienced with programming, you may be able to start immediately with Project #1. If you already have experience with electronic structure theory programs, then you may be ready for the Hartee-Fock programming project or even more advanced topics. 
+This repository is a collection of projects that provide an introduction to quantum chemistry methods with Python. The implementations are not intended to be the most efficient or optimized, but rather to focus on understanding the quantum chemical methods.
 
-# Getting Started
-This repository is organized into several projects, each with its own directory.
-In each one you will find a `README.md` file like this one with instructions,
-and output for you to check your implementation against.
-These projects will also require some input files that will be discussed 
-in each project as they become relevant. 
-These input files can be found in the `inputs` directory. 
-Within `input` there are directories for several different molecule/basis-set
-combinations where you will find integrals, molecular geometries and other files to use as input to your programs.
+The projects are heavily influenced by [CrawfordGroup's](https://github.com/CrawfordGroup/ProgrammingProjects) ProgrammingProjects and [Psi4Numpy](https://github.com/psi4/psi4numpy) repositories.
 
-The wiki for this repository has some discussion of useful topics. 
-Reading over the topics in the [wiki](addlink) is a good way to familiarize yourself with concepts you will use to complete these projects.
-The Fundamentals list below has links to pages within the wiki.
+Each project is organized in its own directory, containing a notebook file with instructions and implementation details. Some projects require input files, which are discussed in the notebooks and can be found in the inputs directory. The inputs directory contains subdirectories for several different molecule/basis-set combinations, each of which includes integrals, molecular geometries, and other relevant files for use as input to your programs.
 
-To begin work on the projects you can create a `clone` of this repository. 
-First navigate to the directory where you would like to keep your programming projects. Then create the clone by this command
-```shell
-git clone git@github.com:CrawfordGroup/ProgrammingProjects.git
-```
-Now you should see a directory called `ProgrammingProjects` inside you will find all of the files that you can see on github.
+This repository is intended to provide a resource for learning quantum chemistry methods with Python, and the projects are designed to be accessible to learners with a basic understanding of programming and quantum chemistry.
 
-# The Fundamentals 
- - [An Initial Example](https://github.com/CrawfordGroup/ProgrammingProjects/wiki/An-Initial-Example)
- - [What is a "Compilation"](https://github.com/CrawfordGroup/ProgrammingProjects/wiki/What-is-a-%22Compilation%22%3F) 
- - [Code Comments](https://github.com/CrawfordGroup/ProgrammingProjects/wiki/Code-Comments)
- - [Data Types and Variables](https://github.com/CrawfordGroup/ProgrammingProjects/wiki/Data-Types-and-Variables)
- - [Operators](https://github.com/CrawfordGroup/ProgrammingProjects/wiki/Operators)
- - [Control Statements](https://github.com/CrawfordGroup/ProgrammingProjects/wiki/Control-Statements)
- - [Input/Output](https://github.com/CrawfordGroup/ProgrammingProjects/wiki/Input-Output)
- - [Functions](https://github.com/CrawfordGroup/ProgrammingProjects/wiki/Functions)
- - [Variable Scope and Reference Types](https://github.com/CrawfordGroup/ProgrammingProjects/wiki/Variable-Scope-and-Reference-Types)
- - [Memory Allocation](https://github.com/CrawfordGroup/ProgrammingProjects/wiki/Memory-Allocation)
- - [Classes and Objects](https://github.com/CrawfordGroup/ProgrammingProjects/wiki/Classes-and-Objects)
- - [Overloading and Templates](https://github.com/CrawfordGroup/ProgrammingProjects/wiki/Overloading-and-Templates)
+
 
 # Quantum Chemistry Programming Projects 
  - [Project #1](https://github.com/CrawfordGroup/ProgrammingProjects/tree/master/Project%2301): Molecular Geometry/rotational constant analysis
@@ -54,11 +26,3 @@ Now you should see a directory called `ProgrammingProjects` inside you will find
  - [Project #13](https://github.com/CrawfordGroup/ProgrammingProjects/tree/master/Project%2313): the Davidson-Liu Algorithm: CIS
  - [Project #14](https://github.com/CrawfordGroup/ProgrammingProjects/tree/master/Project%2314): Excited Electronic States: EOM-CCSD (*In Preparation*)
  
-# Possible Future Projects
- - Some Future Projects
- - SCF Analytic Energy Gradients
- - MP2 Analytic Energy Gradients
- - Integral-direct SCF
- - Response properties: Hartree-Fock dipole-polarizabilities
- - Response properties: CCSD dipole-polarizabilities
- - Local MP2
