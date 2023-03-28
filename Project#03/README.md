@@ -213,6 +213,7 @@ Two points to note:
 The test cases provided below include the structural information dipole integrals needed to compute the dipole moment.
 
 ### Population Analysis/Atomic Charges
+
 A Mulliken population analysis (also described in Szabo & Ostlund, Ch. 3) requires the overlap integrals and the electron density, in addition to information about the number of basis functions centered on each atom.  The charge on atom *A* may be computed as:
 
 <img src="./figures/atomic-charge.png" height="50">

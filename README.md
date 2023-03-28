@@ -14,6 +14,8 @@ This repository is intended to provide a resource for learning quantum chemistry
  - [Project #1](https://github.com/Saikat248/ProgrammingProjects/tree/master/Project%2301): Molecular Geometry/rotational constant analysis
  - [Project #2](https://github.com/Saikat248/ProgrammingProjects/tree/master/Project%2302): Harmonic Vibrational analysis
  - [Project #3](https://github.com/Saikat248/ProgrammingProjects/tree/master/Project%2303): The Hartree-Fock self-consistent field (SCF) procedure.
+
+ <!--
  - [Project #4](https://github.com/CrawfordGroup/ProgrammingProjects/tree/master/Project%2304): The second-order Moller-Plesset perturbation (MP2) energy.
  - [Project #5](https://github.com/CrawfordGroup/ProgrammingProjects/tree/master/Project%2305): The coupled cluster singles and doubles (CCSD) energy.
  - [Project #6](https://github.com/CrawfordGroup/ProgrammingProjects/tree/master/Project%2306): A perturbative triples correction to CCSD [CCSD(T)].
@@ -25,4 +27,5 @@ This repository is intended to provide a resource for learning quantum chemistry
  - [Project #12](https://github.com/CrawfordGroup/ProgrammingProjects/tree/master/Project%2312): Excited Electronic States: CIS and TDHF/RPA
  - [Project #13](https://github.com/CrawfordGroup/ProgrammingProjects/tree/master/Project%2313): the Davidson-Liu Algorithm: CIS
  - [Project #14](https://github.com/CrawfordGroup/ProgrammingProjects/tree/master/Project%2314): Excited Electronic States: EOM-CCSD (*In Preparation*)
+ -->
  
