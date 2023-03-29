@@ -21,9 +21,6 @@ The first line above is the number of atoms (an integer), while the remaining li
 
 After downloading the file to your computer (to a file called “geom.dat”, for example), you must open the file, read the data from each line into appropriate variables, and finally close the file.
 
-- [Hint #1](./hints/hint1-1.md): Opening and closing the file stream
-- [Hint #2](./hints/hint1-2.md): Reading the number of atoms
-- [Hint #3](./hints/hint1-3.md): Storing the z-values and the coordinates
 - [Solution](./hints/step1-solution.md)
 
 ## Step 2: Bond Lengths
@@ -33,10 +30,6 @@ Calculate the interatomic distances using the expression:
 
 where x, y, and z are Cartesian coordinates and i and j denote atomic indices.
 
-- [Hint 1](./hints/hint2-1.md): Memory allocation
-- [Hint 2](./hints/hint2-2.md): Loop structure
-- [Hint 3](./hints/hint2-3.md): Printing the results
-- [Hint 4](./hints/hint2-4.md): Extending the Molecule class
 - [Solution](./hints/step2-solution.md)
 
 ## Step 3: Bond Angles
@@ -48,14 +41,10 @@ where the e<sub>ij</sub> are unit vectors between the atoms, e.g.,
 
 <img src="./figures/unit-vectors.png" height="30">
 
-- [Hint 1](./hints/hint3-1.md): Memory allocation for the unit vectors
-- [Hint 2](./hints/hint3-2.md): Avoiding a divide-by-zero
-- [Hint 3](./hints/hint3-3.md): Memory allocation for the bond angles
-- [Hint 4](./hints/hint3-4.md): Smart printing
-- [Hint 5](./hints/hint3-5.md): Trigonometric functions
+unctions
 - [Solution](./hints/step3-solution.md)
 
-## Step 4: Out-of-Plane Angles
+<!--## Step 4: Out-of-Plane Angles
 Calculate all possible out-of-plane angles. For example, the angle &theta;<sub>ijkl</sub> for atom i out of the plane containing atoms j-k-l (with k as the central atom, connected to i) is given by:
 
 <img src="./figures/oop-angle.png" height="60">
@@ -65,6 +54,7 @@ Calculate all possible out-of-plane angles. For example, the angle &theta;<sub>i
 - [Hint 3](./hints/hint4-3.md): Numerical precision
 - [Hint 4](./hints/hint4-4.md): Smarter printing
 - [Solution](./hints/step4-solution.md)
+-->
 
 ## Step 5: Torsion/Dihedral Angles
 Calculate all possible torsional angles. For example, the torsional angle &tau;<sub>ijkl</sub> for the atom connectivity i-j-k-l is given by:
@@ -73,9 +63,6 @@ Calculate all possible torsional angles. For example, the torsional angle &tau;<
 
 Can you also determine the sign of the torsional angle?
 
-- [Hint 1](./hints/hint5-1.md): Memory allocation?
-- [Hint 2](./hints/hint5-2.md): Numerical precision
-- [Hint 3](./hints/hint5-3.md): Smart printing
 - [Hint 4](./hints/hint5-4.md): Sign
 - [Solution](./hints/step5-solution.md)
 
@@ -88,7 +75,6 @@ where m<sub>i</sub> is the mass of atom i and the summation runs over all atoms 
 
 Translate the input coordinates of the molecule to the center-of-mass.
 
-- [Hint 1](./hints/hint6-1.md): Atomic masses
 - [Hint 2](./hints/hint6-2.md): Translating between atomic number and atomic mass
 - [Solution](./hints/step6-solution.md)
 
@@ -111,7 +97,6 @@ Report the moments of inertia in amu bohr<sup>2</sup>, amu &#8491;<sup>2</sup>, 
 
 Based on the relative values of the principal moments, determine the [molecular rotor type](http://en.wikipedia.org/wiki/Rotational_spectroscopy): linear, oblate, prolate, asymmetric.
 
-- [Hint 1](./hints/hint7-1.md): Diagonalization of a 3×3 matrix
 - [Hint 2](./hints/hint7-2.md): Physical constants
 - [Solution](./hints/step7-solution.md)
 
